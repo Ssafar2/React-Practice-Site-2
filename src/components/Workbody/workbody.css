@@ -1,0 +1,77 @@
+.Workbody {
+    width: 96%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 4%;
+}
+
+@media screen and (max-width:1016px) {
+    .Workbody {
+        margin-left: 0;
+    }
+
+}
+
+.work_body {
+    width: 100%;
+    height: auto;
+
+}
+
+.work_body h3 {
+    font-size: 24px;
+}
+
+.work_body p,
+.work_body ul li {
+    color: #666666;
+    font-size: 16px;
+}
+
+.work_body ul {
+    margin-right: 10%;
+}
+
+.workYear {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 0px 0;
+}
+
+.workBodyHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.workBodys{
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.div{
+    width: 100%;
+}
+.expImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+
+}
+
+.expImg img{
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.Workbody hr{
+    margin-top: 30px;
+}

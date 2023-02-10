@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+
+
+.Header {
+    width: 100%;
+    height: auto;
+    background-color: #E5E5E5;
+
+}
+
+
+li,
+p,
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.Section1 {
+    width: 100%;
+    height: auto;
+    padding: 0 5%;
+    background-color: #000000;
+    margin-top: 250px;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.section1Left {
+    width: 30%;
+    height: auto;
+    color: white;
+    padding-top: 80px;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.lookAll {
+    display: flex;
+}
+
+.lookAll h4 {
+    margin-right: 10px;
+}
+
+.section1Right {
+    width: 60%;
+    height: auto;
+    padding-bottom: 100px;
+    margin-top: 30px;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+.buttonGroup {
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 5%;
+    margin-top: 170px;
+}
+
+.buttonGroup button {
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonGroup button:first-child {
+    margin-right: 5px;
+}
+
+@media screen and (max-width:582px) {
+
+
+    .section1Left {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .lookAll {
+        display: inline-block;
+    }
+
+    .section1Right {
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width:846px) {
+
+    .Section1 {
+        margin-top: 50px;
+    }
+    .buttonGroup {
+     display: none;
+    }
+}
+
+
+@media screen and (min-width:847px) and (max-width:1920px) {
+
+    .section1Left {
+        padding-top: 250px;
+    }
+
+    .section1Right {
+        padding-top: 170px;
+    }
+}
+
+@media screen and (max-width:996px) {
+
+    .buttonGroup {
+        margin-top: 190px;
+    }
+
+}

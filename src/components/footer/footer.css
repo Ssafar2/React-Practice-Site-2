@@ -1,0 +1,177 @@
+.Footer {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerHead {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 50px;
+    color: #FFFFFF;
+}
+
+.footerBody {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:1253px) {
+    .footerBody {
+        gap: 0rem;
+    }
+
+}
+
+.fLeft {
+    width: 100%;
+    flex-grow: 1;
+    flex-basis: 540px;
+}
+
+.fRight {
+    width: 100%;
+    flex-grow: 1;
+    flex-basis: 540px;
+}
+
+.footerBottom {
+    width: 100%;
+    height: auto;
+    padding: 0 5%;
+    margin-top: 250px;
+    color: #FFFFFF;
+}
+
+.footerBottom h1:first-child {
+    font-size: 45px;
+
+}
+
+.footerBottom h1:last-child {
+    font-size: 45px;
+    color: #3C46FF;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:500px) {
+    .footerBottom {
+        margin-top: 100px;
+    }
+
+    .footerBottom h1:first-child {
+        font-size: 35px;
+    }
+
+    .footerBottom h1:last-child {
+        font-size: 35px;
+        color: #3C46FF;
+    }
+
+}
+
+
+/*? FOOTER BOTTOM */
+
+.fBottomInfo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+/*? FOOTER BOTTOM HEAD */
+
+.fBottomHead {
+    width: 100%;
+    flex-grow: 1;
+    flex-basis: 350px;
+}
+
+
+/*? FOOTER BOTTOM LEFT */
+
+.fBottomInfoleft {
+    width: 50%;
+    height: auto;
+    margin-top: 80px;
+    flex-grow: 1;
+    flex-basis: 350px;
+}
+
+.fBottomInfoleft h3 {
+    font-size: 25px;
+}
+
+.fBottomInfoleft p {
+    color: #666666;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+ .mail {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: #666666;
+}
+
+.fBottomInfoleft .mail p {
+    margin-left: 0.5%;
+    font-size: 17px;
+}
+
+
+/*? FOOTER BOTTOM RIGHT */
+
+.fBottomInfoRight {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 40px;
+    font-size: 18px;
+    margin-top: 80px;
+    flex-grow: 1;
+    flex-basis: 350px;
+}
+
+
+
+.fBottomEnd {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #666666;
+    margin-top: 80px;
+    flex-grow: 1;
+    flex-basis: 350px;
+}
+
+
+@media screen and (max-width:881px) {
+    .footerBottom {
+        text-align: center;
+    }
+
+  .mail {
+    display: inline-block;
+    }
+    .mail p{
+        margin: 0;
+    
+    }
+}
+

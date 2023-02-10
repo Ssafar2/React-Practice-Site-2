@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+
+
+.Header {
+    width: 100%;
+    height: auto;
+    background-color: #E5E5E5;
+
+}
+
+
+li,
+p,
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.Job {
+    width: auto;
+    height: auto;
+}
+
+.Job h4 {
+    font-size: 20px;;
+    letter-spacing: 4px;
+}
+
+
+.Job h1 {
+    font-size: 38px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}

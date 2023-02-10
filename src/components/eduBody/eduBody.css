@@ -1,0 +1,44 @@
+.Edubody {
+    width: 96%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.edu_body {
+    width: 100%;
+    height: auto;
+
+}
+
+.edu_body h3 {
+    font-size: 24px;
+}
+
+.edu_body p,
+.edu_body ul li {
+    color: #666666;
+    font-size: 16px;
+}
+
+.edu_body ul {
+    margin-right: 10%;
+}
+
+.eduYear {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 0px 0;
+}
+
+.eduBodyHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.Edubody hr {
+    margin-top: 30px;
+}
