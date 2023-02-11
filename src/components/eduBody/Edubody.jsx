@@ -10,7 +10,7 @@ const Edubody = ({uniName,pos,uniYear}) => {
 
                 <div className="eduBodyHead">
                     <h3>{uniName}</h3>
-                    <FiArrowUpRight size={25} />
+                    <FiArrowUpRight className='ss' />
                 </div>
 
                 <div className="eduYear">

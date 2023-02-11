@@ -13,7 +13,7 @@ const Workbody = ({eduBodyImg,bckColor,uniName,pos,uniYear}) => {
                     <div className="div">
                         <div className="workBodyHead">
                             <h3>{uniName}</h3>
-                            <FiArrowUpRight size={25} />
+                            <FiArrowUpRight className='ss' />
                         </div>
 
                         <div className="workYear">

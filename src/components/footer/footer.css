@@ -119,7 +119,7 @@
     font-size: 16px;
 }
 
- .mail {
+.mail {
     width: 100%;
     height: auto;
     display: flex;
@@ -166,12 +166,73 @@
         text-align: center;
     }
 
-  .mail {
-    display: inline-block;
+    .mail {
+        display: inline-block;
     }
-    .mail p{
+
+    .mail p {
         margin: 0;
-    
+
     }
 }
 
+@media screen and (min-width:320px) and (max-width:499px) {
+
+    .Footer {
+        padding: 0 5%;
+    }
+
+    .footerBody {
+        margin-top: 30px;
+    }
+
+    .footerBottom {
+        width: 100%;
+        height: auto;
+        padding: 0 5%;
+        margin-top: 80px;
+        color: #FFFFFF;
+    }
+
+    .footerBottom h1:first-child {
+        font-size: 22px;
+    }
+
+    .footerBottom h1:last-child {
+        font-size: 22px;
+        margin-top: 13px;
+    }
+
+    /*? FOOTER BOTTOM LEFT */
+
+    .fBottomInfoleft h3 {
+        font-size: 18px;
+    }
+
+    .fBottomInfoleft p {
+        color: #666666;
+        margin: 10px 0;
+        font-size: 13px;
+    }
+
+    .fBottomInfoleft .mail p {
+        margin-left: 0.5%;
+        font-size: 14px;
+    }
+
+    /*? FOOTER BOTTOM RIGHT */
+
+    .fBottomInfoRight {
+        font-size: 14px;
+    }
+
+    .fBottomEnd {
+
+        font-size: 13px;
+    }
+
+
+    .fIcon{
+        font-size: 13px;
+    }
+}

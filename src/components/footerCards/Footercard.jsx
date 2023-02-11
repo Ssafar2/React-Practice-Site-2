@@ -8,7 +8,7 @@ const Footercard = ({ fcardHead }) => {
    
                 <div className="fcardHead">
                     <h3>{fcardHead}</h3>
-                    <IoIosArrowDown size={22} />
+                    <IoIosArrowDown className='fIcon' />
                 </div>
                 <hr />
         </div>

@@ -39,8 +39,6 @@ h6 {
     margin-top: 25px;
 }
 
-
-
 .designImg {
     width: 100%;
     height: 200px;
@@ -79,4 +77,17 @@ h6 {
 
 .viewProj p {
     margin-right: 10px;
+}
+
+
+@media screen and (min-width:320px) and (max-width:499px) {
+
+    .designBody h3 {
+        font-size: 18px;
+    }
+
+    .viewProj p {
+        margin-right: 10px;
+        font-size: 14px;
+    }
 }

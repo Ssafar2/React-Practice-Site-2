@@ -16,3 +16,24 @@
 .fcardHead h3 {
     font-size: 18px;
 }
+
+
+@media screen and (min-width:320px) and (max-width:499px) {
+
+    .Footercard {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        color: #FFFFFF;
+    }
+    
+    .fcardHead {
+       
+        margin-bottom: 20px;
+    }
+    
+    .fcardHead h3 {
+        font-size: 13px;
+        padding-right: 10px;
+    }
+}

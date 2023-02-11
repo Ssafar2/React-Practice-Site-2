@@ -39,9 +39,6 @@ h6 {
     flex-wrap: wrap;
 }
 
-
-
-
 .section1Left {
     width: 30%;
     height: auto;
@@ -110,8 +107,9 @@ h6 {
     .Section1 {
         margin-top: 50px;
     }
+
     .buttonGroup {
-     display: none;
+        display: none;
     }
 }
 
@@ -132,5 +130,47 @@ h6 {
     .buttonGroup {
         margin-top: 190px;
     }
+
+}
+
+@media screen and (min-width:320px) and (max-width:499px) {
+    
+    .Section1 {
+        margin-top: 80px;
+    }
+    
+
+    .section1Left {      
+        padding-top: 0px;
+    }
+    
+    .lookAll {
+        display: inline-block;
+        font-size: 13px;
+    }
+
+    .section1Right {
+        margin-top: 0px;
+    }
+    
+    
+    .buttonGroup {
+        width: auto;
+        height: auto;
+        position: absolute;
+        right: 5%;
+        margin-top: 170px;
+    }
+    
+    .buttonGroup button {
+        padding: 8px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .buttonGroup button:first-child {
+        margin-right: 5px;
+    }
+
 
 }

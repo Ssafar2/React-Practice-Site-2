@@ -4,6 +4,10 @@
     margin-top: 30px;
 }
 
+.ss{
+    font-size: 30px;
+}
+
 .edu_body {
     width: 100%;
     height: auto;
@@ -37,8 +41,35 @@
     justify-content: space-between;
 }
 
-
-
 .Edubody hr {
     margin-top: 30px;
+}
+
+
+@media screen and (min-width:320px) and (max-width:499px) {
+
+   
+    
+    .edu_body h3 {
+        font-size: 16px;
+    }
+    
+    .edu_body p,
+    .edu_body ul li {
+        font-size: 12px;
+        list-style-type:none ;
+    }
+    
+    .edu_body ul {
+        margin-right: 0%;
+    }
+    
+    .Edubody hr{
+        margin-top: 20px;
+    }
+
+    .ss{
+        font-size: 20px;
+    }
+
 }

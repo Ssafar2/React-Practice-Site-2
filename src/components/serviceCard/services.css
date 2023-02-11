@@ -30,7 +30,6 @@ h6 {
 @media screen and (max-width:900px) {
     
     .Service {
-   
         margin-top: 50px;
     }
 
@@ -42,8 +41,6 @@ h6 {
     height: 74px;
     margin: 25px 0;
 }
-
-
 
 .serviceHead2 {
     font-size: 24px;
@@ -67,4 +64,28 @@ h6 {
     list-style-type: square;
     line-height: 35px;
     font-size: 16px;
+}
+
+@media screen and (min-width:320px) and (max-width:499px){
+
+    .serviceHead2 {
+        font-size: 22px;
+    }
+
+    .serviceCards p{
+     font-size: 15px;
+}
+
+.serviceCards li{
+    font-size: 15px;
+}
+
+.serviceLogo1 {
+
+    margin: 0 0;
+}
+
+    
+
+
 }

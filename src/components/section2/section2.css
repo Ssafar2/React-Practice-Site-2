@@ -40,7 +40,7 @@ h6 {
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .section2Head .left {
@@ -63,11 +63,11 @@ h6 {
     flex-basis: 300px;
 }
 
-@media screen and (max-width:700px){
-    .section2Head{
+@media screen and (max-width:700px) {
+    .section2Head {
         text-align: center;
     }
-  
+
 }
 
 
@@ -83,7 +83,7 @@ h6 {
 }
 
 
-.worksImg{
+.worksImg {
     width: auto;
     height: auto;
     flex-grow: 1;
@@ -132,7 +132,8 @@ h6 {
     .littleImg img:nth-child(1) {
         margin-right: 1%;
     }
-    .worksImg{
+
+    .worksImg {
         text-align: center;
     }
 
@@ -142,28 +143,28 @@ h6 {
 @media screen and (min-width:1342px) and (max-width:1358px) {
 
 
-    .worksImg{
-        display: flex;     
+    .worksImg {
+        display: flex;
     }
-  
-    
- 
+
+
+
 }
 
 @media screen and (max-width:700px) {
 
-    .worksImg{
+    .worksImg {
         width: 338px;
         height: auto;
     }
-    
+
     .worksImg img:first-child {
         width: 338px;
         height: 305px;
         margin-right: 0;
         margin-top: 20px;
     }
-    
+
     .worksImg img:last-child {
         width: 338px;
         height: 305px;
@@ -174,12 +175,12 @@ h6 {
     .littleImg img:nth-child(1) {
         margin-top: 20px;
     }
-    
+
     .littleImg img:nth-child(2) {
-        
+
         margin-top: 20px;
     }
- 
+
 }
 
 
@@ -296,7 +297,6 @@ h6 {
     flex-basis: 340px;
 }
 
-
 .ceoContent img {
     margin-bottom: 40px;
 }
@@ -312,8 +312,6 @@ h6 {
     justify-content: space-between;
 
 }
-
-
 
 .ceoInfo button {
     padding: 8px;
@@ -347,7 +345,6 @@ h6 {
 
 }
 
-
 @media screen and (max-width:955px) {
     .ceoImg {
         text-align: center;
@@ -372,4 +369,103 @@ h6 {
     .ceoContent {
         text-align: center;
     }
+}
+
+
+@media screen and (min-width:320px) and (max-width:499px) {
+
+
+    .section2Head .right {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .works {
+        padding: 0;
+    }
+
+
+    .worksImg img:first-child {
+        width: 300px;
+        height: 300px;
+    }
+
+    .worksImg img:last-child {
+        width: 300px;
+        height: 300px;
+    }
+
+    .littleImg {
+        height: auto;
+    }
+
+    .littleImg img:nth-child(1) {
+        width: 300px;
+        height: 300px;
+    }
+
+    .littleImg img:nth-child(2) {
+        width: 300px;
+        height: 300px;
+        margin-top: 12px;
+    }
+
+
+    /*? EDU WORK */
+
+    .eduHead p,
+    .workHead p {
+        margin-left: 1.5%;
+        font-size: 30px;
+        color: #000000;
+    }
+
+
+    /*? CEO */
+
+    .ceo {
+        padding: 0;
+        margin-top: 80px;
+    }
+
+
+    /*? CEO BODY */
+
+    .ceoBody {
+      
+        margin-top: 50px;
+    }
+
+
+    /*? CEO IMG */
+
+    .ceoImg {
+        width: 300px;
+        height: 300px;
+    }
+
+    .ceoImg img {
+        width: 300px;
+        height: 300px;
+    }
+
+    /*? CEO CONTENT */
+
+    .ceoContent h3 {
+        font-size: 17px;
+    }
+
+    .ceoInfo button {
+        padding: 6px;
+        border: none;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+.ceoFounde p{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
 }

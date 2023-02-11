@@ -38,6 +38,7 @@ const Header = () => {
 
 
             <div className='headerInfo'>
+                
                 <div className='headerHead'>
                     <h2>İnsanları sevindirən</h2>
                     <h2>və ruhlandıran məhsullar hazırlayıram</h2>
@@ -51,7 +52,6 @@ const Header = () => {
                 <div className='headerImg'>
                     <img src={Profile} alt="Profile" height={'700px'} />
                 </div>
-
 
             </div>
 

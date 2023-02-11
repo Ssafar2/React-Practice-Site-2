@@ -32,19 +32,19 @@ const Section1 = () => {
                     blogHead='Dizaynerlər üçün sizə lazım olan hər şeyi əhatə edən dizayn məsləhətləri'
                 />
 
-                <BlogCards time='22 devral,2022 .2 dəq'
+                <BlogCards time='22 Fevral,2022 .2 dəq'
                     blogHead='Veb dizayn müştərilərinizlə necə münasibət qurmaq olar'
                 />
 
-                <BlogCards time='15 iyun 2022, 30 dəq'
+                <BlogCards time='15 İyun 2022, 30 dəq'
                     blogHead='2021-in ən yaxşı 6 pulsuz veb sayt maketi alətləri'
                 />
 
-                <BlogCards time='21 noyabr 2022ç 42 dəq'
+                <BlogCards time='21 Noyabr 2022, 42 dəq'
                     blogHead='2021-ci ildə qarşısını almaq üçün loqo dizayn tendensiyaları'
                 />
 
-                <BlogCards time='27 noyabr 2022 38 dəq'
+                <BlogCards time='27 Noyabr 2022, 38 dəq'
                     blogHead='22 ən yaxşı UI dizayn aləti'
                 />
 

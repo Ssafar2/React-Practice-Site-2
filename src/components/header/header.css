@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&display=swap');
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .Header {
     width: 100%;
     height: auto;
     background-color: #E5E5E5;
-
 }
 
 
@@ -40,7 +43,6 @@ h6 {
     position: fixed;
     top: 0;
     z-index: 3;
-
 }
 
 .Header nav h3 {
@@ -74,11 +76,11 @@ h6 {
     margin-right: 0;
 }
 
-@media  screen and (max-width:805px) {
-    
-.Header nav ul{
-    display: none;
-}
+@media screen and (max-width:805px) {
+
+    .Header nav ul {
+        display: none;
+    }
 
 }
 
@@ -89,7 +91,7 @@ h6 {
 .headerInfo {
     width: 100%;
     height: auto;
-    padding: 0 5%;
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -101,18 +103,17 @@ h6 {
     width: 50%;
     height: auto;
     flex-grow: 1;
-    flex-basis: 200px;
+    flex-basis: 500px;
+    padding-left: 3%;
 }
 
 .headerImg {
     width: 50%;
     margin-top: 50px;
     flex-grow: 1;
-    flex-basis: 200px;
-    margin-right: 6%;
+    flex-basis: 500px;
     text-align: center;
 }
-
 
 
 .headerHead h2 {
@@ -185,7 +186,7 @@ h6 {
 }
 
 @media screen and (max-width:1132px) {
-    .headerImg img{
+    .headerImg img {
         width: 450px;
     }
 }
@@ -194,7 +195,7 @@ h6 {
 
     .headerHead {
 
-      text-align: center;
+        text-align: center;
     }
 }
 
@@ -308,8 +309,6 @@ h6 {
     border: none;
 }
 
-
-
 .projInfo button:hover {
     background-color: #FF8A56;
     color: whitesmoke;
@@ -329,7 +328,6 @@ h6 {
     }
 
 }
-
 
 .designCards {
     width: 100%;
@@ -360,4 +358,86 @@ h6 {
         width: 100%;
         text-align: center;
     }
+}
+
+
+@media screen and (min-width:320px) and (max-width:499px) {
+
+
+    .Header nav {
+        height: 60px;
+        padding: 0 5%;
+    }
+
+    .headerInfo {
+        margin-top: 0px;
+        padding: auto;
+    }
+
+    .headerImg {
+        text-align: center;
+    }
+
+    .headerImg img {
+        width: 300px;
+        height: auto;
+    }
+
+    .headerHead h2 {
+        font-size: 32px;
+    }
+
+    .headerHead p {
+        font-size: 17px;
+    }
+
+    .Button2 button:first-child {
+        width: 121px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .Button2 button:nth-child(2) {
+        width: 121px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+
+    .logosPar {
+        margin-top: 0px;
+    }
+
+
+    .allLogo {
+        margin-top: 20px;
+    }
+
+    .services {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        margin-top: 100px;
+    }
+
+    .serviceHeader {
+        text-align: center;
+    }
+
+    .allService {
+        margin: 0px auto 0 auto;
+    }
+
+    .projInfo {
+        margin-top: 80px;
+    }
+
+
+    .projInfo button {
+        height: 38px;
+        font-size: 14px;
+        line-height: 38px;
+    }
+
+
 }
