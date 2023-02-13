@@ -11,7 +11,6 @@ const Service = ({head,par,li1,li2,li3,logo1}) => {
 
                 <div className="serviceLogo1">
                     <img src={logo1} alt="serviceLogo" />
-        
                 </div>
 
                 <h3 className="serviceHead2">{head}</h3>

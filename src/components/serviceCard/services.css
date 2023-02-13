@@ -44,6 +44,7 @@ h6 {
 
 .serviceHead2 {
     font-size: 24px;
+    margin: 10px 0;
 }
 
 .Service p {
@@ -72,6 +73,12 @@ h6 {
         font-size: 22px;
     }
 
+    .serviceHead2 h3 {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+
+
     .serviceCards p{
      font-size: 15px;
 }
@@ -80,10 +87,7 @@ h6 {
     font-size: 15px;
 }
 
-.serviceLogo1 {
 
-    margin: 0 0;
-}
 
     
 

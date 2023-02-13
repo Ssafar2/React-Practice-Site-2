@@ -1,6 +1,8 @@
+import React, { useRef } from 'react';
 import './header.css';
 
 import { BsArrowRightShort } from 'react-icons/bs';
+import { GiHamburgerMenu } from 'react-icons/gi';
 import Profile from '../../img/profile.png';
 import Logo1 from '../../img/logo1.png';
 import Logo2 from '../../img/logo2.png';
@@ -19,26 +21,29 @@ import Job from '../jobInfo/Job';
 
 const Header = () => {
 
+   
+
     return (
         <div className='Header'>
             <nav>
                 <h3>Portfolio qurucusu</h3>
-                <ul>
+                <ul className='navbarMenu'>
                     <li>Haqqımızda</li>
                     <li>Servis</li>
                     <li>Proyekt</li>
                     <li>Blog</li>
-
                     <li>Sifariş edin</li>
                     <BsArrowRightShort size={25} />
-
                 </ul>
+                <GiHamburgerMenu  className='menuNav' />
             </nav>
+
+          
 
 
 
             <div className='headerInfo'>
-                
+
                 <div className='headerHead'>
                     <h2>İnsanları sevindirən</h2>
                     <h2>və ruhlandıran məhsullar hazırlayıram</h2>
